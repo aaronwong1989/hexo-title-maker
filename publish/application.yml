@@ -1,0 +1,18 @@
+hexo:
+  title: Apollo # 系列文章主题的公共前缀
+  tags:
+    - Apollo    # 文章可以有多个标签，并列关系
+  categories:
+    - Apollo    # 文章可以隶属于多个分类，顺序为父子关系
+  top: 10       # 控制文章在主页展示的优先级，10一般表示较高，可选值 1-99
+  moreIndex: 12 # 在此之前的文章行会展示在主页，-1表示所有行都展示在主页，不加阅读更多按钮
+  mdPath: D:\app\coding\apollo.wiki
+  replaces:     # 需要替换文章的内容
+    src01: https://github.com/ctripcorp/apollo/wiki
+    target01: /blog/posts
+    src02: https://github.com/ctripcorp/apollo/blob/master/doc/images
+    target02: /blog/images/apollo
+    src03: https://raw.githubusercontent.com/ctripcorp/apollo/master/doc/images
+    target03: /blog/images/apollo
+    src04: https://github.com/ctripcorp/apollo/raw/master/doc/images
+    target04: /blog/images/apollo
